@@ -1,0 +1,85 @@
+.logout-btn {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.admin-logout {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.top-layout {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  height: 50px;
+}
+.top-wrap {
+  display: flex;
+  justify-content: end;
+}
+/* createprojectlayout */
+
+.admin-dashboard {
+  color: #343a40;
+  font-size: 40px;
+  font-weight: bold;
+  display: grid;
+  align-items: center;
+}
+.admin-navbar-create {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+}
+.admin-nav-wrapper {
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+}
+.bg {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.user-search-padding {
+  padding-top: 20px;
+}
+.user-dash {
+  color: #343a40;
+  font-size: 40px;
+  font-weight: bold;
+
+  align-items: center;
+  height: 50px;
+}
+
+.sidemenu-flex{
+  display: flex;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  div.admin-dashboard {
+    color: #343a40;
+    font-size: 32px;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+  }
+}
+.wrapped {
+  display: flex;
+}
+.main-menu-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 2px solid #dcdcdc;
+}
+/* .mainlayout-border {
+  border-bottom: 2px solid #dcdcdc;
+} */

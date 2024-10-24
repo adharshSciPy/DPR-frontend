@@ -1,0 +1,18 @@
+.btnn {
+  height: 30px;
+  width: 120px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btnn-red {
+  background-color: #dc3545;
+  color: white;
+}
+.btnn-black {
+  background-color: #212529;
+  color: white;
+}

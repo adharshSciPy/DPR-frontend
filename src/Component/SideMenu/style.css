@@ -1,0 +1,76 @@
+.side-menu-wrapper {
+  background-color: white;
+  border-right: 2px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
+  height: 250px;
+}
+.sidemenu-bar {
+  color: #0a58ca;
+  display: flex;
+  gap: 5px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+}
+.sidemenu-bar-active {
+  color: #495057;
+  background-color: #e7f1ff;
+  display: flex;
+  gap: 5px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+}
+.sidemenu-bar-text {
+  padding: 0px 30px 0 0;
+  
+  display: grid;
+  align-items: center;
+}
+.sidemenu-bar-text-logo {
+  padding: 0px 0 0 20px;
+  display: grid;
+  align-items: center;
+}
+/* .sidemenu-bar:hover {
+  background-color: #e7f1ff;
+  color: #495057;
+} */
+.menutop {
+  padding-top: 10px;
+  white-space: nowrap;
+}
+.wraping {
+  display: flex;
+}
+
+/* .burger-active {
+  padding: 20px 20px 0px 20px;
+} */
+
+@media only screen and (max-width: 1020px) {
+  .burger-notactive {
+    display: inline-block;
+  }
+  .burger-active {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .burger-notactive {
+    display: none;
+  }
+  .burger-active {
+    display: inline-block;
+  }
+}
+
+.side-menu-position{
+  position: absolute;
+  z-index: 200;
+}

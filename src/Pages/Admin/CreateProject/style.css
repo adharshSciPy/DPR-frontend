@@ -1,0 +1,9 @@
+.create-btn-grid{
+    display: flex;
+    justify-content: end;
+    
+}
+.create-inline{
+   display: flex;
+   column-gap: 15px;
+}

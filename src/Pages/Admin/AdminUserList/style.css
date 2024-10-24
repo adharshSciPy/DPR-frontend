@@ -1,0 +1,111 @@
+.logout-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  /* border: 1px solid #7749f8; */
+  font-size: 12px;
+  cursor: pointer;
+}
+.admin-logout {
+  display: grid;
+  justify-content: end;
+}
+.admin-top {
+  height: 40px;
+  background-color: #7749f8;
+  display: grid;
+
+  align-items: center;
+  grid-template-columns: 11fr 1fr;
+}
+
+.admin-dash {
+  color: #343a40;
+  font-size: 40px;
+  font-weight: bold;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 11fr;
+  height: 100px;
+}
+.admin-navbar {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+.admin-nav-wrapper {
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+}
+.bg {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+.admin-addproject-btn {
+  display: grid;
+  align-items: center;
+}
+.btn-padding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-dashboard-btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.search-admin-wrap {
+  width: 300px;
+}
+.btn-padding-search {
+  width: 150px;
+}
+.padding {
+  padding-left: 5px;
+}
+.search-poss {
+  display: grid;
+  justify-content: end;
+}
+
+.card-body-2 {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card-body-2:hover {
+  color: black;
+  background-color: #ffcb9c;
+  border-radius: 5px;
+}
+
+
+.card-body-wrap {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  justify-content: space-between;
+}
+.user-enable-btn {
+  display: grid;
+  align-items: center;
+}
+.newuser-body {
+  background-color: #d9d9d9;
+}
+.newuser-body-wrap {
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+  gap: 20px;
+}
+.admin-user-dash-search {
+  display: grid;
+  justify-content: end;
+}
+.card-user-body {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  padding: 10px;
+}
+.card-user-body:hover {
+  color: black;
+  background-color: #ffcb9c;
+}

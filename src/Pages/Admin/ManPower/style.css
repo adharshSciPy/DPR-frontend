@@ -1,0 +1,20 @@
+.manpower-top {
+  display: flex;
+  justify-content: end;
+}
+.manpower-end {
+  align-content: end;
+}
+.manpower-bottom {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+  }
+.btn-color{
+    background-color: #0d6dfd9d;
+    color: white;
+}
+.manpower-popup-align{
+  display: flex;
+  column-gap: 5px;
+}

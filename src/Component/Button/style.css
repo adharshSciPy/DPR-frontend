@@ -1,0 +1,18 @@
+.button-size-sm {
+  height: 30px;
+  width: 120px;
+}
+.button-size-esm {
+  height: 25px;
+
+  font-size: 10px;
+}
+
+.button-grey {
+  background-color: #6c757d;
+}
+
+.butn-or {
+  background-color: #ff7900;
+  border: none;
+}

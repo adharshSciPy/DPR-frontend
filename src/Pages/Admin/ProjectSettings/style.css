@@ -1,0 +1,99 @@
+.project-settings-btn {
+  display: grid;
+  justify-content: end;
+}
+.tree-card-1 {
+  background-color: rgb(230 230 230);
+  border: 2px solid rgba(128, 128, 128, 0.147);
+  border-radius: 5px;
+}
+.tree-card-2 {
+  background-color: rgb(220, 220, 220);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.147);
+}
+
+.tree-card-3 {
+  background-color: rgb(210, 210, 210);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.147);
+}
+
+.tree-card-4 {
+  background-color: rgb(200, 200, 200);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.147);
+}
+
+.tree-card-5 {
+  background-color: rgb(190, 190, 190);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.147);
+}
+.border-project {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.147);
+}
+.project-warp {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
+.project-building-bg {
+  padding-top: 20px;
+}
+.project-building {
+  gap: 10px;
+  display: flex;
+}
+.project-flexinx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.project-padding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.building-header {
+  font-size: 26px;
+  font-weight: 700;
+}
+.button-position-project {
+  position: absolute;
+  right: 0;
+}
+.project-manpower-bg {
+  background-color: white;
+}
+.gap {
+  gap: 10px;
+}
+.popup-align {
+  display: grid;
+  place-content: center;
+}
+.tree-body {
+  height: 40px;
+}
+
+/* media query */
+
+
+@media only screen and (max-width: 1800px) {
+  .button-icon {
+    display: inline-block;
+  }
+  .button-label {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .button-icon {
+    display: none;
+  }
+  .button-label {
+    display: inline-block;
+  }
+}
+

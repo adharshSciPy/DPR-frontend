@@ -1,0 +1,21 @@
+.burger-active{
+    padding: 20px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .burger-active {
+      display: inline-block;
+    }
+    .burger-notactive {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .burger-active {
+      display: none;
+    }
+    .burger-notactive {
+      display: inline-block;
+    }
+  }
+  

@@ -1,0 +1,25 @@
+.materialinward {
+  display: flex;
+  justify-content: space-between;
+}
+.materialinward-user-body {
+  display: grid;
+
+  padding: 10px;
+}
+.materialinward-user-body:hover {
+  color: black;
+  background-color: #ffcb9c;
+}
+.inward-btn-date{
+    display: grid;
+   
+}
+.inward-date{
+    display: grid;
+   justify-content: flex-end;
+}
+.inward-btn{
+    display: grid;
+   justify-content: flex-end;
+}

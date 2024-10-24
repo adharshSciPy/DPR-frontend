@@ -1,0 +1,19 @@
+.card-text-color {
+  color: #6c757d;
+  font-size: 14px;
+}
+.card-text-location {
+  color: #000000;
+  font-size: 16px;
+}
+.card-text-header {
+  color: #000000;
+  font-size: 20px;
+}
+.card-user-body:hover{
+    color: #ffffff;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

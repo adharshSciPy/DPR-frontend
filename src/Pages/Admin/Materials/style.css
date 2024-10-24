@@ -1,0 +1,15 @@
+.material {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  
+  .btn-materials {
+    display: grid;
+    align-items: center;
+    align-items: end;
+  }
+  .material-btn-botoom{
+      display: grid;
+      justify-content: end;
+  }

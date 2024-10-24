@@ -1,0 +1,49 @@
+.user-date {
+  border: 2px solid rgba(0, 0, 0, 0.212);
+  border-radius: 5px;
+}
+.user-date-row {
+  padding-top: 10px;
+  display: grid;
+}
+.button-position-user {
+  padding-top: 10px;
+  display: grid;
+  align-items: center;
+}
+.user-box {
+  background-color: #ced4da;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding: 10px;
+  border-radius: 5px;
+}
+.user-box-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.user-box-wrap-flex {
+  display: flex;
+}
+.text1 {
+  font-size: 14px;
+}
+
+.text2 {
+  font-size: 12px;
+  gap: 10px;
+}
+.text3 {
+    display: grid;
+    align-items: center;
+  }
+.box {
+  border: 1px solid rgb(179, 177, 177);
+  padding: 10px;
+}
+.user-list-padding{
+  padding-top: 10px;
+}
+.padding-box{
+  padding: 20px;
+  gap: 5px;
+}

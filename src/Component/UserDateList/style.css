@@ -1,0 +1,6 @@
+.user-data-hovered{
+    background-color: white;
+}
+.user-data-hovered:hover{
+    background-color: rgb(124, 124, 124);
+}
